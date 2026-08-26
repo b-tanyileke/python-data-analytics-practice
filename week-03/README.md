@@ -2,20 +2,24 @@
 
 Use these activities to practise console output, variables, user input, arithmetic expressions, type conversion, number formatting, named constants, and introductory programming errors.
 
-Before beginning, review the Week 3 material on program anatomy, `print()`, variables, `input()`, mathematical calculations, type conversion, special `print()` arguments, formatting numbers, and named constants.
+Before beginning, review the material for Week 3.
 
-Do not use topics that have not been introduced yet, including conditional statements, loops, functions, lists, or `try`/`except` blocks.
+You do not need to use topics that have not been introduced yet, including conditional statements, loops, functions, lists, or `try`/`except` blocks.
 
 ## Activities
 
 1. Complete the five files in `exercises/beginner/`.
 2. Answer the questions in [think-about-it.md](think-about-it.md).
+
+    TIP:
+    Look at the file online on github for better formatting.
+
 3. Complete the three files in `exercises/intermediate/`.
 
-Run an activity from a terminal with, for example:
+You can run activity files from a terminal with, for example you can run the line below from the root directory to execute exercise-01:
 
 ```text
-python exercises/beginner/exercise_01_console_layout.py
+python week-03/exercises/beginner/exercise_01_console_layout.py
 ```
 
-Solutions are in `solutions/`. Attempt an activity before opening its solution.
+Sample solutions are in `solutions/`. Attempt an activity before opening its solution.

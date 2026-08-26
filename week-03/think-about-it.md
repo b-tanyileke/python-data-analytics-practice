@@ -4,7 +4,7 @@ Answer these questions before checking `solutions/think-about-it-answers.md`.
 
 ## Predict the output
 
-1. What is displayed?
+1. What is displayed after running the following lines?
 
    ```python
    print("Data", "Analytics", sep="-")
@@ -12,7 +12,7 @@ Answer these questions before checking `solutions/think-about-it-answers.md`.
    print("Go")
    ```
 
-2. What is displayed?
+2. What is displayed after running this block?
 
    ```python
    hours = 3
@@ -21,7 +21,7 @@ Answer these questions before checking `solutions/think-about-it-answers.md`.
    print(total_minutes)
    ```
 
-3. What is displayed?
+3. What is displayed after running the lines below?
 
    ```python
    amount = 8.5
@@ -69,7 +69,7 @@ Answer these questions before checking `solutions/think-about-it-answers.md`.
    print(total)
    ```
 
-9. Identify and correct the invalid variable name.
+9. What is the problem with this code?
 
    ```python
    2nd_score = 87
