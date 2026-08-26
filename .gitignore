@@ -21,6 +21,7 @@ dist/
 
 # Jupyter notebooks
 .ipynb_checkpoints/
+test.ipynb
 
 # Editors and operating systems
 .vscode/
