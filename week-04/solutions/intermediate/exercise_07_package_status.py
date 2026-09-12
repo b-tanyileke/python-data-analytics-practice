@@ -2,6 +2,7 @@
 
 
 def package_status(destination, weight):
+    """ returns a string based on the destination and weight """
     if destination == "local":
         if weight <= 5:
             return "Local standard"

@@ -2,6 +2,7 @@
 
 
 def grade_label(score):
+    """ returns a string based on the score """
     if score >= 90:
         return "A"
     if score >= 80:
