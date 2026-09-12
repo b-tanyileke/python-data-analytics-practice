@@ -34,3 +34,6 @@ Thumbs.db
 *.csv
 *.xlsx
 *.xls
+
+# Local maintainer planning notes
+.instructor/

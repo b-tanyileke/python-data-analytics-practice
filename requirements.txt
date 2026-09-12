@@ -1,2 +1,2 @@
-# Step A has no third-party Python dependencies.
-# Add pinned or bounded dependencies here only when course material needs them.
+# pytest is used only for repository maintenance tests.
+pytest>=8,<9
