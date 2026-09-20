@@ -12,6 +12,8 @@ def load_solution(relative_path, module_name):
     """Load a sample solution module from the specified relative path."""
     module_path = SOLUTION_ROOT / relative_path
     specification = importlib.util.spec_from_file_location(module_name, module_path)
+    if specification is None or specification.loader is None:
+        raise ImportError(f"Unable to load solution module from {module_path}")
     module = importlib.util.module_from_spec(specification)
     sys.modules[module_name] = module
     specification.loader.exec_module(module)
