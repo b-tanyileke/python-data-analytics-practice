@@ -3,7 +3,6 @@
 
 def write_message(message, filename):
     """Write message and a newline to filename, then return its length."""
-    output_file = open(filename, "w")
-    output_file.write(message + "\n")
-    output_file.close()
+    with open(filename, "w") as output_file:
+        output_file.write(message + "\n")
     return len(message)
